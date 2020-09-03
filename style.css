@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-nav {
+  height: 70px;
+  line-height: 70px;
+  padding: 0 40px;
+
+}
+
+.nav-left {
+  width: 45%;
+}
+
+.nav-right {
+  width: 45%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.main-nav{
+  padding: 50px;
+}
+
+.list li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.personal {
+  color: black;
+}
+
+.logo {
+  width: 150px;
+}
