@@ -5,7 +5,7 @@
 }
 .main-nav {
   height: 70px;
-  line-height: 70px;
+
   padding: 0 40px;
 
 }
@@ -39,15 +39,25 @@
   padding: 0 5px;
 }
 
-.list li a {
+a {
   text-decoration: none;
   color: lightgrey;
 }
 
-.personal {
-  color: black;
+.cont-logo {
+  vertical-align: top;
 }
 
 .logo {
   width: 150px;
+
+}
+
+.button {
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  background-color: #D73391;
+  border-radius: 50px;
+  vertical-align: middle;
 }
