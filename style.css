@@ -17,6 +17,8 @@
   padding: 0 40px;
 }
 
+
+
 .list {
   display: flex;
   display: row;
@@ -25,7 +27,7 @@
 .list li {
   color: lightgrey;
   list-style: none;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 li:hover {
@@ -39,10 +41,19 @@ li:hover {
 }
 
 .menu {
+  box-shadow: 5px 10px 20px #8B959E;
+  border-radius: 10px;
+  position: absolute;
+  white-space: nowrap;
   display: none;
-  width: 200px;
-  background-color: red;
+
 }
+
+.open-menu {
+  position: relative;
+}
+
+
 
 
 .button {

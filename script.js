@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $(".open-menu").click(
+  $(".open-menu").hover(
     function() {
       $(this).children(".menu").toggle();
     }
